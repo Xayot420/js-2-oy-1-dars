@@ -1,0 +1,128 @@
+:root {
+    --asosiy-lighmode-rangi: rgb(196, 181, 165);
+    --asosiy-lighmode-text-rangi: rgb(0, 0, 0);
+    --asosiy-button-rangi: rgb(251, 152, 47);
+    --asosiy-darkmode-button-rangi: rgb(196, 181, 165);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--asosiy-lighmode-rangi);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_btn_lightmode {
+    background-color: var(--asosiy-button-rangi);
+    border: none;
+    font-size: 13px;
+    width: 131px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    border-radius: 6px;
+}
+
+.header_btn_darkmode {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    width: 131px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    border-radius: 6px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding-top: 50px;
+}
+
+.header_ul {
+    display: flex;
+    gap: 88px;
+}
+
+.header_li {
+    list-style: none;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 83px;
+    margin-left: 119px;
+    width: 426px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 77px;
+    margin-left: 119px;
+    width: 426px;
+}
+
+.pasdagi_btn {
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    width: 195px;
+    height: 53px;
+    left: 119px;
+    top: 550px;
+    background-color: var(--asosiy-button-rangi);
+    color: black;
+}
+.left_div_parent{
+    display: flex;
+}
+.div_right{
+    margin-left: 702px;
+    margin-top: -220px;
+}
+.header_btn_lightmode:hover{
+    background-color: pink;
+    transition: 0.5s ease-in-out;
+}
+.header_btn_darkmode:hover{
+    background-color: pink;
+    transition: 0.5s ease-in-out;
+}
+.pasdagi_btn:hover{
+    background-color: pink;
+    transition: 0.5s ease-in-out;
+}
+.header_btn_lightmode:active{
+    background-color: greenyellow;
+    transition: 0.5s ease-in-out;
+}
+.header_btn_darkmode:active{
+    background-color: greenyellow;
+    transition: 0.5s ease-in-out;
+}
+.pasdagi_btn:active{
+    background-color: greenyellow;
+    transition: 0.5s ease-in-out;
+}
